@@ -3,7 +3,6 @@ import GoogleMapReact from 'google-map-react';
 import './MapComponent.css'
 import Marker from './Marker.tsx'
 
-// AIzaSyAFHimzetOpx23Kfe1StFycHp9mToZZCnA
 //-37.808362, 144.963315
 
 class MapComponent extends Component {
@@ -240,7 +239,6 @@ class MapComponent extends Component {
                 </div>
                 <div className="map-custom">
                     <GoogleMapReact
-                        bootstrapURLKeys={{ key: 'AIzaSyAFHimzetOpx23Kfe1StFycHp9mToZZCnA' }}
                         defaultCenter={this.props.center}
                         defaultZoom={this.props.zoom}
                         center={this.state.center}
