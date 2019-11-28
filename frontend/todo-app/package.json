@@ -1,0 +1,42 @@
+{
+  "name": "todo-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.1",
+    "formik": "^1.5.1",
+    "google-map-react": "^1.1.5",
+    "moment": "^2.24.0",
+    "node": "^12.7.0",
+    "react": "^16.10.1",
+    "react-big-calendar": "^0.22.1",
+    "react-calendar": "^2.19.2",
+    "react-dom": "^16.10.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.8",
+    "react-test-renderer": "16.8.4",
+    "typescript": "^3.6.3"
+  },
+  "scripts": {
+    "start": "set PORT=4200 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "mocha": "^6.2.0",
+    "@testing-library/react": "^9.2.0",
+    "cross-env": "^5.2.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0"
+  }
+}
